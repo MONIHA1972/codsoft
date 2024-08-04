@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0>">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1 class="logo"><span>MONIHA</span></h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi I'm <span>Moniha</span></h1>
+                    <h2>I'm a <span>Web Developer</span></h2>
+                </div>
+            </div>
+        </header>
+
+        
+        <div class="about" id="about">
+            <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/me.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello! I'm Moniha, a passionate web developer with a knack for craeting innonative solutions.
+                             With a degree in Information Technology. My career goals is i'm working in a big projectfor government.
+                             I'm always looking for new opportunities to grow and learn.</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('expereince')">Expereince</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab " id="skills">
+                            <ul>
+                                <li><span>HTML</span><BR>Beginner</li>
+                                <li><span>CSS</span><BR>Beginner</li>
+                                <li><span>JAVA SCRIPT</span><BR>Beginner</li>
+                                <li><span>NODE JS</span><BR>Beginner</li>
+                                <li><span>REACT</span><BR>Beginner</li>
+                                <li><span>C</span><BR>Beginner</li>
+                                <li><span>PYTHON</span><BR>Beginner</li>   
+                            </ul>
+                         </div>
+                         <div class="tab-contents " id="expereince">
+                            <ul>
+                                <li><span>Basics of Programmingin Web Technology</span><BR>Internship at ZeroSoft Technology</li>
+                                <li><span>Web Development</span><br>Vulture TechLine Pvt.Ltd</li>   
+                                <li><span>Basics of Python Programming</span><BR>Training at OPEN WEAVER</li> 
+                            </ul>
+                         </div>
+                         <div class="tab-contents " id="education">
+                            <ul>
+                                <li><span>2025</span><BR>B.TECH IT from Tiruchendur</li>
+                                <li><span>2021</span><BR>HSSLC from Tuticorin</li>
+                                <li><span>2019</span><BR>SSLC from Tuticorin</li>   
+                            </ul>
+                         </div>
+                    </div>
+            </div>        
+         </div>
+
+         <div class="resume" id="resume">
+            <h1 class="head">Resume</h1>
+            <p>Intend to build a career with leading corporate of hi-tech environment with committed and
+                 dedicated people, which help me to explore myself fully and realize my potential. Willing to working
+                 as a key player in a challenging and creative environment.
+            </p>
+            <div class="res">
+                <h3>Resum</h3>
+                <a href="image/cv.doc" download class="btn btn2">Download CV</a>
+            </div>
+         </div>
+
+         <div class="project" id="project">
+            <div class="container">
+                <h1 class="heading">Projects</h1>
+                <div class="pro-box">
+                    <div class="pro-card">
+                        <img src="image/p1.png">
+                        <h3>Project1</h3>
+                        <p>hg fu fuy gfjuyt hfdrtdh fhhtd dtfhr fjtffj gftj dgsthd ,khu 
+                            cbfgd nmgmg hgmmjg ggh vmjgm hjmg
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                    <div class="pro-card">
+                        <img src="image/p2.png">
+                        <h3>Project2</h3>
+                        <p>hg fu fuy gfjuyt hfdrtdh fhhtd dtfhr fjtffj gftj dgsthd ,khu 
+                            cbfgd nmgmg hgmmjg ggh vmjgm hjmg
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                    <div class="pro-card">
+                        <img src="image/p3.png">
+                        <h3>Project3</h3>
+                        <p>hg fu fuy gfjuyt hfdrtdh fhhtd dtfhr fjtffj gftj dgsthd ,khu 
+                            cbfgd nmgmg hgmmjg ggh vmjgm hjmg
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <div class="contact"  id="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="heading">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://telegram.com"><i aria-label="fas fa-telegram"></i></a>
+                        <a href="https://instagram.com"><i aria-label="fas fa-instagram-alt"></i></a>
+                        <a href="https://linkedin.com"><i aria-label="fas fa-linkedin-square"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>@ Moniha|All Rights Reserved</p>
+            </div>
+         </div>
+
+         <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link"); 
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab"); 
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }    
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+               sidemenu.style.right = " 0";
+            }
+            function closemenu(){
+                sidemenu.style.right = " -200px";
+            }
+            </script>
+    </body>
+</html>
